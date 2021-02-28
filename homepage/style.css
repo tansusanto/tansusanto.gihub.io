@@ -1,0 +1,312 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    /* height: 0; */
+    background: black;
+    overflow-x: hidden;
+}
+.logo{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 30px;
+}
+.logo img{
+    width: 8%;
+}
+.logo a{
+    text-decoration: none;
+    color: white;
+    font-family: 'DotGothic16', sans-serif;
+    font-size: 20px;
+    text-transform: capitalize;
+}
+.logo a:hover{
+    color: red;
+}
+.latar{
+    display: flex;
+    justify-content: center;
+}
+.latar img{
+    z-index: -1;
+    width: 55%;
+    opacity: 50%;
+    position: fixed;
+}
+
+.konten h1{
+    font-size: 1.8rem;
+    font-family: 'DotGothic16', sans-serif;
+    margin-top: 22%;
+}
+.konten p{
+    padding-top: 10px;
+    font-size: 18px;
+    font-family: 'Montserrat',sans-serif;
+    width: 500px;
+    margin-top: %;
+}
+.konten img{
+    float: right;
+    margin-top: -20%;
+    justify-content: center;
+    width: 35%;
+    z-index: -1;
+}
+.konten{
+    color: white;
+    margin: 80px;
+}
+.skill{
+    color: white;
+    margin-top: 20%;
+    margin-left: 70px;
+}
+.skill h1{
+    font-family: 'DotGothic16', sans-serif;
+    text-transform: capitalize;
+    font-size: 18px;
+}
+  
+.skill1{
+    display: flex;
+    flex-direction: row;
+    margin-left: 70px;
+    padding-top: 20px;
+}
+.skill1 img:first-child{
+    width: 8%;  
+}
+.skill1 img:nth-child(2){
+    width: 8%; 
+    margin-left: 5%;
+}
+.skill1 img:nth-child(3){
+    width: 8%; 
+    margin-left: 5%;
+}
+.skill1 img:nth-child(4){
+    width: 8%;  
+    margin-left: 5%;
+}
+.skill1 img:nth-child(5){
+    width: 8%;  
+    margin-left: 5%;
+}
+.bawah{
+    display: flex;
+    flex-direction: column;
+    margin-left: 70px;
+    padding-top: 60px;
+    color: white;
+}
+.bawah h1{
+    font-family: 'DotGothic16',sans-serif;
+    text-transform: capitalize;
+    font-size: 22px;
+}
+.bawah a{
+    padding-top: 10px;
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-family: 'Montserrat',sans-serif;
+}
+.bawah a:hover{
+    color: red;
+}
+.bawah1{
+    display: flex;
+    flex-direction: row;
+    margin-left: 50px;
+    padding-top: 20px;
+}
+.bawah1 img:first-child{
+    width: 6%;  
+}
+.bawah1 img:nth-child(2){
+    width: 6%;
+}
+.bawah1 img:nth-child(3){
+    width: 6%;
+}
+
+
+/* ukuran handphone */
+@media only screen and (max-width: 500px) {
+    .logo img{
+        display: flex;
+        width: 18%;
+    }
+    .logo a{
+        display: flex;
+        font-size: 16px;
+    }
+    .latar{
+        display: flex;
+        justify-content: center;
+        margin-top: 25%;
+    }
+    .latar img{
+        display: flex;
+        width: 120%;
+    }
+    .konten{
+        display: flex;
+        flex-direction: column;
+        margin: -50px 30px;
+    }
+    .konten p{
+        display: flex;
+        font-size: 14px;
+        width: 278px;
+    }
+    .konten h1{
+        display: flex;
+        font-size: 1.3rem;
+    }
+    .konten img{
+        display: flex;
+        width: 100%;
+        padding-top: 70px;
+    }
+    .skill{
+        display: flex;
+        margin-left: 30px;
+    }
+    .skill h1{
+        display: flex;
+    }
+    .skill1{
+        display: flex;
+        margin-left: 30px;
+    }
+    .skill1 img:first-child{
+        display: flex;
+        width: 15%;
+    }
+    .skill1 img:nth-child(2){
+        display: flex;
+        width: 15%;
+    }
+    .skill1 img:nth-child(3){
+        display: flex;
+        width: 15%;
+    }
+    .skill1 img:nth-child(4){
+        display: flex;
+        width: 15%;
+    }
+    .skill1 img:nth-child(5){
+        display: flex;
+        width: 15%;
+    }
+    .bawah{
+        display: flex;
+        margin-left: 30px;
+        padding-top: 30px;
+    }
+    .bawah h1{
+        display: flex;
+        font-size: 18px;
+    }
+    .bawah a{
+        display: flex;
+        font-size: 14px;
+    }
+    .bawah1{
+        display: flex;
+        margin-left: 20px;
+        padding-top: 20px;
+    }
+    .bawah1 img:first-child{
+        display: flex;
+        width: 20%;
+    }
+    .bawah1 img:nth-child(2){
+        display: flex;
+        width: 20%;
+    }
+    .bawah1 img:nth-child(3){
+        display: flex;
+        width: 20%;
+    }
+  }
+
+/* ukuran tablet */
+/* @media screen and(max-width: 768px){
+    .logo img{
+        width: 8%;
+    }
+} */
+
+/* ukuran laptop */
+@media screen and(min-width: 992px){
+    .logo img{
+        display: flex;
+        width: 5%;
+    }
+    .logo a{
+        display: flex;
+        font-size: 20px;
+    }
+    .konten p{
+        display: flex;
+        width: 400px;
+    }
+    .konten img{
+        display: flex;
+    }
+    .skill{
+        display: flex;
+        margin-left: 30px;
+    }
+    .skill h1{
+        display: flex;
+    }
+    .skill1{
+        display: flex;
+        margin-left: 30px;
+    }
+    .skill1 img:first-child{
+        display: flex;
+        width: 15%;
+    }
+    .skill1 img:nth-child(2){
+        display: flex;
+        width: 15%;
+    }
+    .skill1 img:nth-child(3){
+        display: flex;
+        width: 15%;
+    }
+    .skill1 img:nth-child(4){
+        display: flex;
+        width: 15%;
+    }
+    .skill1 img:nth-child(5){
+        display: flex;
+        width: 15%;
+    }
+    .bawah1{
+        display: flex;
+        margin-left: 20px;
+        padding-top: 20px;
+    }
+    .bawah1 img:first-child{
+        display: flex;
+        width: 20%;
+    }
+    .bawah1 img:nth-child(2){
+        display: flex;
+        width: 20%;
+    }
+    .bawah1 img:nth-child(3){
+        display: flex;
+        width: 20%;
+    }
+}
+
